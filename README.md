@@ -1,2 +1,29 @@
-# DeviceConstraint
-DeviceConstraint
+<p align="center">
+  <img width="769" src="https://github.com/mikhailpanfilov/DeviceConstraint/blob/master/DeviceConstraint_header.png">
+</p>
+<p align="center">
+  <a href="https://swift.org">
+        <img src="https://img.shields.io/badge/swift-5.0-orange.svg" alt="Swift 5.0">
+    </a>
+    <a href="LICENSE">
+        <img src="https://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT License">
+    </a>
+    <a href="https://medium.com/@mikhailpanfilov">
+        <img src="https://img.shields.io/badge/medium-mikhailpanfilov-lightgray.svg" alt="Medium">
+    </a>
+</p>
+
+
+**DeviceConstraint** is one of the solutions to meet the design requirements depending on different screen types. It's an `IBDesignable class` with `IBInspectable` variables representing constraint's constants for each device type. Please, check [Medium](https://medium.com/@mikhailpanfilov) post with a full description👏
+
+
+### 📝 Contents
+[#`DeviceConstraint`](https://github.com/mikhailpanfilov/DeviceConstraint/blob/master/DeviceConstraint.swift)<br/>
+
+
+
+### 🚀 Contributing
+
+Feel free to contribute by suggesting your classes through the **Pull requests** 🤝
+
+If you find a **bug**, please create an issue 🤷‍♂️
