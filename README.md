@@ -14,7 +14,7 @@
 </p>
 
 
-**DeviceConstraint** is one of the solutions to meet the design requirements depending on different screen types. It's an `IBDesignable class` with `IBInspectable` variables representing constraint's constants for each device type. Please, check [Medium](https://medium.com/@mikhailpanfilov) post with a full description👏
+**DeviceConstraint** is one of the solutions to meet the design requirements depending on different screen types. It's an `IBDesignable class` with `IBInspectable` variables representing constraint's constants for each device type. Please, check [Medium](https://medium.com/@mikhailpanfilov/devicetype-deviceconstraint-swift-5-f5a01e97bc36) post with a full description👏
 
 
 ### 📝 Contents
