@@ -8,26 +8,33 @@
 
 import UIKit
 
-@IBDesignable class DeviceConstraint : NSLayoutConstraint {
+@IBDesignable class DeviceConstraint: NSLayoutConstraint {
     @IBInspectable var iPhoneSE: CGFloat = 0.0 {
         didSet { deviceConstant(DeviceType.iPhoneSE, value: iPhoneSE) }
     }
-    @IBInspectable var iPhone8: CGFloat = 0.0 {
-        didSet { deviceConstant(DeviceType.iPhone8, value: iPhone8) }
+    @IBInspectable var iPhoneWithoutTopNotch: CGFloat = 0.0 {
+        didSet { deviceConstant(DeviceType.iPhoneWithoutTopNotch, value: iPhoneWithoutTopNotch) }
     }
-    @IBInspectable var iPhone8Plus: CGFloat = 0.0 {
-        didSet { deviceConstant(DeviceType.iPhone8Plus, value: iPhone8Plus) }
+    @IBInspectable var iPhonePlus: CGFloat = 0.0 {
+        didSet { deviceConstant(DeviceType.iPhonePlus, value: iPhonePlus) }
     }
-    @IBInspectable var iPhoneX: CGFloat = 0.0 {
-        didSet { deviceConstant(DeviceType.iPhoneX, value: iPhoneX) }
+    @IBInspectable var iPhoneXOr12Mini: CGFloat = 0.0 {
+        didSet { deviceConstant(DeviceType.iPhoneXOr12Mini, value: iPhoneXOr12Mini) }
     }
-    @IBInspectable var iPhoneXsMax: CGFloat = 0.0 {
-        didSet { deviceConstant(DeviceType.iPhoneXsMax, value: iPhoneXsMax) }
+    @IBInspectable var iPhoneXrOrMax: CGFloat = 0.0 {
+        didSet { deviceConstant(DeviceType.iPhoneXrOrMax, value: iPhoneXrOrMax) }
+    }
+    @IBInspectable var iPhone12: CGFloat = 0.0 {
+        didSet { deviceConstant(DeviceType.iPhone12, value: iPhone12) }
+    }
+    @IBInspectable var iPhone12Max: CGFloat = 0.0 {
+        didSet { deviceConstant(DeviceType.iPhone12Max, value: iPhone12Max) }
     }
     @IBInspectable var iPad: CGFloat = 0.0 {
         didSet { deviceConstant(DeviceType.iPad, value: iPad) }
     }
     
+    // Helpers
     open func deviceConstant(_ currentDevice: Bool, value: CGFloat) {
         if currentDevice {
             constant = value
